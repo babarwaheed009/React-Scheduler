@@ -1,0 +1,132 @@
+.td-assignment .job-assignment p {
+    font-size: 13px;
+  }
+  .td-assignment .job-assignment {
+    box-shadow: 0px 0px 5px grey;
+  }
+  /* .current-week-container{
+      width: 450px;
+      margin: auto;
+  } */
+  .empty-event {
+    opacity: 0;
+    /* display: none; */
+    transition: 0.2s;
+  }
+  .empty-event button {
+    padding: 5px 20px !important;
+  }
+  .td-assignment:hover .empty-event {
+    /* display: block; */
+    opacity: 1;
+  }
+  .event-actions i {
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  .modal-dialog {
+    max-width: 540px !important;
+    width: 100% !important;
+    height: 98% !important;
+    min-height: 98% !important;
+  }
+  /* td{
+      display: inline-block;
+      min-height: 100%;
+  }
+  .employee_list{
+      width: 15%;
+  }
+  .td-assignment{
+      width: 12.1%;
+  } */
+  .table-container{
+      height: 634px;
+      overflow: auto;
+  }
+  .table-container thead {
+    position: sticky;
+    top: -1px;
+    z-index: 100;
+  }
+  #sideModal label {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .empty-event {
+    opacity: 0;
+    transition: 0.3s;
+  }
+  .job-assignment:hover .empty-event {
+    opacity: 1;
+  }
+  .color-pink {
+    color: #bd428c !important;
+  }
+  .select-size input {
+    display: none;
+  }
+  
+  .select-size label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px lightgrey;
+    padding: 0px !important;
+  }
+  
+  #mon:checked ~ label[for="mon"],
+  #tue:checked ~ label[for="tue"],
+  #wed:checked ~ label[for="wed"],
+  #thu:checked ~ label[for="thu"],
+  #fri:checked ~ label[for="fri"],
+  #sat:checked ~ label[for="sat"],
+  #sun:checked ~ label[for="sun"] {
+    background: #036ac3;
+    color: #ffffff;
+    box-shadow: inset 2px 2px 5px black;
+  }
+  /* td{
+      display: inline-block;
+      min-height: 100%;
+  }
+  .employee_list{
+      width: 15%;
+  }
+  */
+  /* .job-assignment{
+      width: 90%;
+      position: absolute;
+      top: 0;
+  }  */
+  .ddcontainer,
+  .ddcontainersource {
+    width: 100%;
+  }
+  .select__menu {
+    z-index: 1000 !important;
+  }
+  .schedule p,
+  .job-assignment span {
+    font-weight: 400;
+  }
+  .multiple-events{
+    position:absolute;
+    height:30px;
+    overflow:hidden;
+    width: 100%;
+    transition: .2s;
+  }
+  .multiple-containers{
+    height: 40px;
+  }
+  .multiple-events:hover{
+    height:52px;
+    z-index: 1;
+  }
+  
