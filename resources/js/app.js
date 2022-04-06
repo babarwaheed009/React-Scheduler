@@ -13,4 +13,4 @@ require('./bootstrap');
  */
 
 require('./components/Example');
-require('./components/Schedule/Schedule');
+require('./components/Schedule1/Schedule');

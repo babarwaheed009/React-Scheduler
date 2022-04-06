@@ -27,6 +27,9 @@
         "jquery": "^3.6.0",
         "mdbootstrap": "^4.20.0",
         "mdbreact": "^5.2.0",
-        "moment": "^2.29.1"
+        "moment": "^2.29.2",
+        "react-color": "^2.19.3",
+        "react-drag-drop-container": "^6.1.1",
+        "react-select": "^5.2.2"
     }
 }
